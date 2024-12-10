@@ -9,10 +9,11 @@ import {
   Image,
   Spacer,
   Text,
+  
 } from "@chakra-ui/react";
 
-import img from "../imgs/Isoftw.jpg";
-import { Form, useNavigate } from "react-router-dom";
+
+import { useNavigate } from "react-router-dom";
 import { useMutation } from "@tanstack/react-query";
 import axios from "../libs/axios";
 import { useRef } from "react";
@@ -98,6 +99,7 @@ export default function SplitScreen() {
           </Stack>
         </Stack>
       </Flex>
+      
       <Flex flex={1}>
         <Image alt={"Login Image"} objectFit={"cover"} src="/src/imgs/negro.svg" />
       </Flex>
