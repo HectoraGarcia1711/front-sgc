@@ -70,7 +70,7 @@ export default function SplitScreen() {
           </FormControl>
           <FormControl id="password" textAlign={"center"}>
             <FormLabel></FormLabel>
-            <Input ref={password} type="password" placeholder="Contraseña"  w="350px"/>
+            <Input ref={password} type="password" placeholder="Contraseña1"  w="350px"/>
           </FormControl>
 
           {
