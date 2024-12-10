@@ -47,7 +47,7 @@ const TarjetaDocumento = ({ nameDocument, ruta, img }: Props) => {
             colorScheme="blue"
             onClick={() => navigate(`/home/Formatos/${ruta}`)}
           >
-            Abrir
+            Hola
           </Button>
         </ButtonGroup>
       </CardFooter>

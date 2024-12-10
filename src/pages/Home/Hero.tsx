@@ -21,7 +21,9 @@ export default function Hero() {
               SGC
             </Text>
           </Heading>
-          <Text color={"gray.500"}>Hola</Text>
+          
+          <Text  fontWeight="bold" fontSize={"5x1"}>SI PUEDES SOÑARLO PODEMOS CONTRUIRLO</Text>
+
           <Stack
             direction={"column"}
             spacing={3}

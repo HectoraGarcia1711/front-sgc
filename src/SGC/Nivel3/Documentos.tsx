@@ -1,18 +1,20 @@
 import { SimpleGrid } from "@chakra-ui/react";
 import TarjetaDocumento from "./Componentes/TarjetaDocumento";
 import { Outlet, useLocation } from "react-router-dom";
-import minuta from "../../imgs/Minuta.jpg";
-import logo2 from "../../imgs/Imagen1.jpg";
-import logo3 from "../../imgs/Imagen2.jpg";
-import logo4 from "../../imgs/Imagen3.jpg";
-import logo5 from "../../imgs/Imagen4.jpg";
-import logo6 from "../../imgs/Imagen5.jpg";
-import logo7 from "../../imgs/Imagen6.jpg";
-import listaverificacion from "../../imgs/ListaVerificacion.jpg";
-import planAuditoria from "../../imgs/PlanAuditorias.jpg";
-import listaAsistencia from "../../imgs/ListaAsistencia.jpg";
-import reporteAuditoria from "../../imgs/reporteAuditoria.jpg";
-import mejoracontinua from "../../imgs/MejoraContinua.jpg";
+import minuta from "../../imgs/Blanco 2.svg";
+import logo2 from "../../imgs/Blanco 2.svg";
+import logo3 from "../../imgs/Blanco 2.svg";
+import logo4 from "../../imgs/Blanco 2.svg";
+import logo5 from "../../imgs/Blanco 2.svg";
+import logo6 from "../../imgs/Blanco 2.svg";
+import logo7 from "../../imgs/Blanco 2.svg";
+import listaverificacion from "../../imgs/Blanco 2.svg";
+import planAuditoria from "../../imgs/Blanco 2.svg";
+import listaAsistencia from "../../imgs/Blanco 2.svg";
+import reporteAuditoria from "../../imgs/Blanco 2.svg";
+import mejoracontinua from "../../imgs/Blanco 2.svg";
+import SolicitudPersonal from "../../imgs/Blanco 2.svg";
+
 
 type Props = {};
 
@@ -85,6 +87,7 @@ const Documentos = (props: Props) => {
           <TarjetaDocumento
             nameDocument="SOLICITUD DE PERSONAL"
             ruta="SolicitudPersonal"
+            img={SolicitudPersonal}
           />
 
           <TarjetaDocumento
