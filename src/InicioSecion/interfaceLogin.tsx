@@ -59,18 +59,18 @@ export default function SplitScreen() {
          boxShadow="0 4px 8px rgba(0, 0, 0, 0.5)" // Sombra en los bordes de la imagen 
       />
       <Spacer /> {/* Esto agrega un espacio flexible */}
-
+      <Spacer /> {/* Esto agrega un espacio flexible */}
       <Text  fontWeight="bold" fontSize={"2x1"}>
       Datos obligatorios *
       </Text>
       
           <FormControl id="email" textAlign={"center"}>
             <FormLabel></FormLabel>
-            <Input ref={email} type="email" placeholder="Correo Electrónico" w="350px" />
+            <Input ref={email} type="email" placeholder="Correo Electrónico *" w="400px"  boxShadow="md" _hover={{ boxShadow: "lg" }}  />
           </FormControl>
           <FormControl id="password" textAlign={"center"}>
             <FormLabel></FormLabel>
-            <Input ref={password} type="password" placeholder="Contraseña1"  w="350px"/>
+            <Input ref={password} type="password" placeholder="Contraseña *"  w="400px" boxShadow="md" _hover={{ boxShadow: "lg" }}/>
           </FormControl>
 
           {
@@ -79,7 +79,7 @@ export default function SplitScreen() {
             //    Error al iniciar sesión. Verifica tus credenciales.
             //  </Text>
           }
-          <Stack spacing={6}>
+          <Stack align="center" spacing={8}>
             <Button
               colorScheme={"blue"}
               variant={"solid"}
