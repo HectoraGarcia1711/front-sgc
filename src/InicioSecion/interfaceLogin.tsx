@@ -54,7 +54,7 @@ export default function SplitScreen() {
         <Image
          borderRadius="full" // Hace la imagen circular
          boxSize="250px"      // Define el tamaño de la imagen
-         src="/src/imgs/Isoftw.jpg"  // Ruta de la imagen
+         src="/src/imgs/Blanco 2.svg"  // Ruta de la imagen
          mx="auto"              // Centra la imagen horizontalmente
          boxShadow="0 4px 8px rgba(0, 0, 0, 0.5)" // Sombra en los bordes de la imagen 
       />
@@ -99,7 +99,7 @@ export default function SplitScreen() {
         </Stack>
       </Flex>
       <Flex flex={1}>
-        <Image alt={"Login Image"} objectFit={"cover"} src={img} />
+        <Image alt={"Login Image"} objectFit={"cover"} src="/src/imgs/negro.svg" />
       </Flex>
     </Stack>
   );
