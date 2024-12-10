@@ -71,7 +71,7 @@ export default function SplitScreen() {
           </FormControl>
           <FormControl id="password" textAlign={"center"}>
             <FormLabel></FormLabel>
-            <Input ref={password} type="password" placeholder="Contraseña *"  w="400px" boxShadow="md" _hover={{ boxShadow: "lg" }}/>
+            <Input ref={password} type="password" placeholder="Contraseña lol *"  w="400px" boxShadow="md" _hover={{ boxShadow: "lg" }}/>
           </FormControl>
 
           {
